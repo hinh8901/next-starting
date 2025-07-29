@@ -1,0 +1,9 @@
+[
+  { "name": "Red", "value": "#FF0000" },
+  { "name": "Orange", "value": "#FFA500" },
+  { "name": "Yellow", "value": "#FFFF00" },
+  { "name": "Green", "value": "#008000" },
+  { "name": "Blue", "value": "#0000FF" },
+  { "name": "Indigo", "value": "#4B0082" },
+  { "name": "Violet", "value": "#EE82EE" }
+]
