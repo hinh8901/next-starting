@@ -1,31 +1,36 @@
-import { FC } from "react"
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
-import Link from "next/link"
+import { FC } from 'react';
 
+import Link from 'next/link';
 
 const Home: FC = () => {
   return (
-    <div className="w-screen h-screen relative">
-      <Image
-        src="https://ycxhdoliqwvxdsmzjknq.supabase.co/storage/v1/object/public/nextjs.todos/large-images/world.topo.bathy.200412.3x5400x2700.jpg"
-        fill
-        objectFit="cover"
-        alt="World background"
-        priority
-        quality={100}
-      />
-      <div className="flex items-center justify-center absolute left-0 top-0 w-full h-full bg-[#202020a1] backdrop-blur-xs">
-        <Link href="/color">
-          <Button variant="outline" className="cursor-pointer">
-            Colors
-            <ArrowRight />
-          </Button>
-        </Link>
-      </div>
+    <div className="w-screen h-screen flex items-center justify-center gap-1">
+      <Link
+        href="/tanstack-query/infinite-queries"
+        className="bg-amber-800 text-white px-2.5"
+      >
+        Infinite queries
+      </Link>
+      <Link
+        href="/tanstack-query/mutations"
+        className="bg-amber-800 text-white px-2.5"
+      >
+        Mutations
+      </Link>
+      <Link
+        href="/tanstack-query/prefetching"
+        className="bg-amber-800 text-white px-2.5"
+      >
+        Prefetching
+      </Link>
+      <Link
+        href="/tanstack-query/ssr"
+        className="bg-amber-800 text-white px-2.5"
+      >
+        SSR
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

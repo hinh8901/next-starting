@@ -1,8 +1,9 @@
-import { FC } from "react"
-import ColorsComponent from "./components/Colors"
+import { FC } from 'react';
+
+import ColorsComponent from './components/Colors';
 
 const Page: FC = () => {
-  return <ColorsComponent />
-}
+  return <ColorsComponent />;
+};
 
-export default Page
+export default Page;

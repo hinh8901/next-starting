@@ -1,10 +1,9 @@
-import { LoaderPinwheel } from "lucide-react"
-import { FC } from "react"
+import { FC } from 'react';
+
+import { LoaderPinwheel } from 'lucide-react';
 
 const Loading: FC = () => {
-  return (
-    <LoaderPinwheel className="animate-spin" color="#ffffff" />
-  )
-}
+  return <LoaderPinwheel className="animate-spin" color="#ffffff" />;
+};
 
-export default Loading
+export default Loading;
